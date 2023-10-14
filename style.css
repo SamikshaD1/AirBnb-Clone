@@ -1,0 +1,115 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .homepage {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1250px;
+    background-color: red;
+    font-family: inter;
+  }
+  a {
+    text-decoration: none;
+    color: var(--white, #fff);
+  }
+  
+  /* Homepage navbar-section */
+  .navbar {
+    display: flex;
+    width: 1000px;
+    padding: 16px 80px 96px 80px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+  .AirBnb-nav {
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .AirBnb-search {
+    width: 848px;
+    padding: 8px 8px 8px 32px;
+    border-radius: 1000px;
+    background: var(--white, #fff);
+  }
+  .input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .input-container div {
+    display: flex;
+    flex-direction: column;
+  }
+  .input {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: var(--gray-500, #6b7280);
+  }
+  
+  .input:focus {
+    outline: none;
+    border-color: #000;
+  }
+  .big-card img {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 600px;
+    width: 1000px;
+    padding: 80px;
+  }
+  
+  /* Homepage Hero-section */
+  .hero {
+    display: flex;
+    width: 1000px;
+    padding: 16px 80px 96px 80px;
+    flex-direction: column;
+    gap: 96px;
+  }
+  /* card-section  */
+  .cards {
+    display: flex;
+    gap: 1vw;
+  }
+  .card {
+    /* border: 1px solid #ccc; */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    max-height: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+  .card img {
+    max-width: 100%;
+    height: auto;
+  }
+  .card-content {
+    display: flex;
+    height: 150px;
+    padding: 0 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    background: #cc2d4a;
+    color: #fff;
+  }
+  .card-content p {
+    font-size: 13px;
+    font-weight: 400;
+  }
+  .inspiration2 img{
+      max-width: 500px;
+  }
